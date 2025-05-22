@@ -1,0 +1,22 @@
+{
+  "name": "local-firetv-mcp-server",
+  "version": "1.0.0",
+  "description": "Local MCP server for Fire TV control with real ADB command execution",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["mcp", "firetv", "adb", "android", "remote-control"],
+  "author": "Your Name",
+  "license": "MIT"
+} 
